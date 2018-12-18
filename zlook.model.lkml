@@ -25,6 +25,9 @@ explore: inventory_items {
     relationship: many_to_one
   }
 }
+explore: derivedfromgooglesheet {
+  label: "GoogleSheetTest"
+}
 
 explore: order_items {
   join: inventory_items {
